@@ -1,0 +1,2811 @@
+2014-11-29 18:36:48 Error: [MissingControllerException] Controller class QuestionsController could not be found.
+Exception Attributes: array (
+  'class' => 'QuestionsController',
+  'plugin' => NULL,
+)
+Request URL: /questions
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 18:37:10 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /admin/post
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 18:37:12 Error: [MissingActionException] Action Posts::admin_index() could not be found.
+Exception Attributes: array (
+  'controller' => 'Posts',
+  'action' => 'admin_index',
+)
+Request URL: /admin/posts
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Controller/Scaffold.php(150): Scaffold->_scaffold(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(PostsController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-11-29 18:37:17 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 18:37:22 Error: [MissingActionException] Action Posts::admin() could not be found.
+Exception Attributes: array (
+  'controller' => 'Posts',
+  'action' => 'admin',
+)
+Request URL: /posts/admin
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Controller/Scaffold.php(150): Scaffold->_scaffold(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(PostsController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-11-29 18:38:03 Error: [NotFoundException] Invalid Post
+Request URL: /posts/edit/
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Controller/Scaffold.php(394): Scaffold->_scaffoldSave(Object(CakeRequest), 'edit')
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Scaffold.php(150): Scaffold->_scaffold(Object(CakeRequest))
+#2 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(PostsController), Object(CakeRequest))
+#3 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#4 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#5 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#6 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-11-29 21:38:00 Error: [MissingActionException] Action Posts::admin() could not be found.
+Exception Attributes: array (
+  'controller' => 'Posts',
+  'action' => 'admin',
+)
+Request URL: /posts/admin
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Controller/Scaffold.php(150): Scaffold->_scaffold(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(PostsController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-11-29 21:38:07 Error: [MissingActionException] Action Posts::admin_add() could not be found.
+Exception Attributes: array (
+  'controller' => 'Posts',
+  'action' => 'admin_add',
+)
+Request URL: /posts/admin_add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Controller/Scaffold.php(150): Scaffold->_scaffold(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(PostsController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-11-29 21:51:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:51:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:51:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:51:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:51:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:51:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:52:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:52:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:52:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:52:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:52:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:52:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:53:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:53:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:53:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:54:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:54:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:54:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:54:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:54:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:54:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:55:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:55:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:55:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:55:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:55:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:55:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:55:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:55:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:55:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:55:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:55:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:55:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:55:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:55:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:55:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:55:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:55:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:55:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:55:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:55:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:55:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:55:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:55:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:55:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:55:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:55:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:56:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:56:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:56:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:56:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:56:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:56:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:56:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:56:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:56:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:56:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:56:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:56:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:59:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:59:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:59:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:59:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:59:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 21:59:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:00:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:00:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:00:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.min.js
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:01:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:01:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 22:33:21 Error: Fatal Error (1): Call to undefined method ScaffoldView::css() in [/home/ubuntu/workspace/app/View/Layouts/default.ctp, line 36]
+2014-11-29 22:33:21 Error: [FatalErrorException] Call to undefined method ScaffoldView::css()
+Request URL: /posts/
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/ubuntu/wo...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/ubuntu/wo...', 36, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/ubuntu/wo...', 36, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-29 22:49:59 Error: [MissingActionException] Action Posts::index.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'Posts',
+  'action' => 'index.html',
+)
+Request URL: /posts/index.html
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Controller/Scaffold.php(150): Scaffold->_scaffold(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(PostsController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-11-29 22:50:15 Error: [MissingActionException] Action Posts::index.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'Posts',
+  'action' => 'index.html',
+)
+Request URL: /posts/index.html
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Controller/Scaffold.php(150): Scaffold->_scaffold(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(PostsController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-11-29 22:58:09 Error: [MissingControllerException] Controller class ClearCacheClearCacheController could not be found.
+Exception Attributes: array (
+  'class' => 'ClearCacheClearCacheController',
+  'plugin' => 'ClearCache',
+)
+Request URL: /admin/clear_cache/clear_cache_clear_cache/clear
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 23:02:13 Error: [MissingControllerException] Controller class ClearCacheClearCacheController could not be found.
+Exception Attributes: array (
+  'class' => 'ClearCacheClearCacheController',
+  'plugin' => 'ClearCache',
+)
+Request URL: /clear_cache/clear_cache_clear_cache/clear
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 23:04:14 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /home
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 23:23:29 Error: [MissingActionException] Action Posts::admin() could not be found.
+Exception Attributes: array (
+  'controller' => 'Posts',
+  'action' => 'admin',
+)
+Request URL: /posts/admin
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Controller/Scaffold.php(150): Scaffold->_scaffold(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(PostsController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-11-29 23:23:59 Error: [MissingActionException] Action Posts::admin_add() could not be found.
+Exception Attributes: array (
+  'controller' => 'Posts',
+  'action' => 'admin_add',
+)
+Request URL: /posts/admin_add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Controller/Scaffold.php(150): Scaffold->_scaffold(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(PostsController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-11-29 23:46:55 Error: [MissingControllerException] Controller class PostshController could not be found.
+Exception Attributes: array (
+  'class' => 'PostshController',
+  'plugin' => NULL,
+)
+Request URL: /postsh
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-29 23:47:40 Error: [MissingActionException] Action PostsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'index',
+)
+Request URL: /posts
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-29 23:57:04 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/add.ctp',
+)
+Request URL: /posts/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-29 23:59:55 Error: [MissingActionException] Action PostsController::admin() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'admin',
+)
+Request URL: /posts/admin
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-30 00:00:02 Error: [PrivateActionException] Private Action PostsController::admin_add() is not directly accessible.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'admin_add',
+)
+Request URL: /posts/admin_add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-30 00:00:30 Error: [MissingActionException] Action PostsController::admin() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'admin',
+)
+Request URL: /posts/admin/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-30 00:27:08 Error: Fatal Error (4): syntax error, unexpected '{' in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 104]
+2014-11-30 00:27:08 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /posts/index/sort:Heure/direction:asc
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 104)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 104, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 104, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 00:34:06 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/8
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:36:23 Error: Fatal Error (1): Call to undefined function dump() in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 103]
+2014-11-30 00:36:23 Error: [FatalErrorException] Call to undefined function dump()
+Request URL: /posts/like/8
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/ubuntu/wo...', 103)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/ubuntu/wo...', 103, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/ubuntu/wo...', 103, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 00:37:01 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/8
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:37:47 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/8
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:40:51 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:41:32 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:42:55 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:44:28 Error: Fatal Error (4): syntax error, unexpected '$post' (T_VARIABLE) in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 105]
+2014-11-30 00:44:28 Error: [FatalErrorException] syntax error, unexpected '$post' (T_VARIABLE)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 105)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 105, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 105, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 00:45:06 Error: Fatal Error (4): syntax error, unexpected 'Debugger' (T_STRING) in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 106]
+2014-11-30 00:45:06 Error: [FatalErrorException] syntax error, unexpected 'Debugger' (T_STRING)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 106)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 106, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 106, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 00:45:08 Error: Fatal Error (4): syntax error, unexpected 'Debugger' (T_STRING) in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 106]
+2014-11-30 00:45:08 Error: [FatalErrorException] syntax error, unexpected 'Debugger' (T_STRING)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 106)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 106, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 106, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 00:45:16 Error: Fatal Error (4): syntax error, unexpected 'Debugger' (T_STRING) in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 106]
+2014-11-30 00:45:16 Error: [FatalErrorException] syntax error, unexpected 'Debugger' (T_STRING)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 106)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 106, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 106, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 00:45:19 Error: Fatal Error (4): syntax error, unexpected 'Debugger' (T_STRING) in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 106]
+2014-11-30 00:45:19 Error: [FatalErrorException] syntax error, unexpected 'Debugger' (T_STRING)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 106)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 106, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 106, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 00:45:25 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 109]
+2014-11-30 00:45:25 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 109)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 109, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 109, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 00:45:26 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 109]
+2014-11-30 00:45:26 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 109)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 109, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 109, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 00:45:27 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 109]
+2014-11-30 00:45:27 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 109)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 109, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 109, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 00:45:30 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 109]
+2014-11-30 00:45:30 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 109)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 109, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 109, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 00:45:36 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:45:43 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:45:48 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:46:21 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:46:34 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:47:21 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:47:23 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:47:26 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:47:28 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:47:33 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:47:34 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:47:34 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:47:35 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:47:35 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:47:36 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:47:45 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:47:49 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:47:50 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:47:52 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:48:07 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:48:08 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:48:41 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:48:57 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:48:58 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:50:17 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:50:24 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:50:29 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:50:34 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:50:52 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:50:54 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:50:55 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:51:03 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:51:16 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:51:28 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:51:55 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:52:16 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:52:27 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:52:30 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:52:45 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:53:27 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:53:49 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:53:51 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:53:52 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:53:53 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:53:55 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:55:08 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:55:09 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:55:10 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:55:36 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 106]
+2014-11-30 00:55:36 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 106)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 106, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 106, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 00:55:38 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 106]
+2014-11-30 00:55:38 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 106)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 106, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 106, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 00:55:52 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:55:54 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:55:54 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:55:56 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:55:57 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:55:58 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:55:58 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:55:59 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:55:59 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:56:00 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:56:00 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:56:00 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:56:01 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:56:01 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:56:01 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:56:01 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:56:02 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:57:11 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:57:12 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:57:13 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:57:13 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:57:14 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:57:18 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:57:19 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:58:28 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 108]
+2014-11-30 00:58:28 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 00:58:31 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 108]
+2014-11-30 00:58:31 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 00:58:32 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 108]
+2014-11-30 00:58:32 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 00:59:13 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 108]
+2014-11-30 00:59:13 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 00:59:15 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 108]
+2014-11-30 00:59:15 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 00:59:16 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 108]
+2014-11-30 00:59:16 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 00:59:17 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 108]
+2014-11-30 00:59:17 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 00:59:27 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 108]
+2014-11-30 00:59:27 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 00:59:28 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 108]
+2014-11-30 00:59:28 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 00:59:29 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 108]
+2014-11-30 00:59:29 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 00:59:29 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 108]
+2014-11-30 00:59:29 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 00:59:30 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 108]
+2014-11-30 00:59:30 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 00:59:30 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 108]
+2014-11-30 00:59:30 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 00:59:30 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 108]
+2014-11-30 00:59:30 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 00:59:30 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 108]
+2014-11-30 00:59:30 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 00:59:30 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 108]
+2014-11-30 00:59:30 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 108, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 00:59:36 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:59:38 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:59:39 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:59:40 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:59:40 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:59:41 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:59:41 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:59:42 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 00:59:42 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/like.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/like.ctp',
+)
+Request URL: /posts/like/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 01:01:25 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/dislike.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/dislike.ctp',
+)
+Request URL: /posts/dislike/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 01:01:30 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/dislike.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/dislike.ctp',
+)
+Request URL: /posts/dislike/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 01:01:31 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/dislike.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/dislike.ctp',
+)
+Request URL: /posts/dislike/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 01:01:32 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/dislike.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/dislike.ctp',
+)
+Request URL: /posts/dislike/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 01:01:35 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/dislike.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/dislike.ctp',
+)
+Request URL: /posts/dislike/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 01:01:35 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/dislike.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/dislike.ctp',
+)
+Request URL: /posts/dislike/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 01:01:36 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/dislike.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/dislike.ctp',
+)
+Request URL: /posts/dislike/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 01:01:36 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/dislike.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/dislike.ctp',
+)
+Request URL: /posts/dislike/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 01:01:37 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/dislike.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/dislike.ctp',
+)
+Request URL: /posts/dislike/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 01:01:37 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/dislike.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/dislike.ctp',
+)
+Request URL: /posts/dislike/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 01:01:37 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/dislike.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/dislike.ctp',
+)
+Request URL: /posts/dislike/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 01:01:38 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/dislike.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/dislike.ctp',
+)
+Request URL: /posts/dislike/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 01:01:39 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/dislike.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/dislike.ctp',
+)
+Request URL: /posts/dislike/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 01:01:40 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/dislike.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/dislike.ctp',
+)
+Request URL: /posts/dislike/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 01:01:40 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/dislike.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/dislike.ctp',
+)
+Request URL: /posts/dislike/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 01:01:41 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/dislike.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/dislike.ctp',
+)
+Request URL: /posts/dislike/5
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 01:05:45 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/ubuntu/workspace/app/View/Posts/index.ctp, line 19]
+2014-11-30 01:05:45 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /posts
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 19, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 19, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 01:06:08 Error: Fatal Error (4): syntax error, unexpected '?>' in [/home/ubuntu/workspace/app/View/Posts/index.ctp, line 19]
+2014-11-30 01:06:08 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /posts
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 19, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 19, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 01:06:13 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/ubuntu/workspace/app/View/Posts/index.ctp, line 19]
+2014-11-30 01:06:13 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /posts
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 19, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 19, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 01:06:22 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/ubuntu/workspace/app/View/Posts/index.ctp, line 19]
+2014-11-30 01:06:22 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /posts
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 19, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 19, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 01:06:23 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/ubuntu/workspace/app/View/Posts/index.ctp, line 19]
+2014-11-30 01:06:23 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /posts
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 19, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 19, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 01:08:39 Error: [NotFoundException] Invalid post
+Request URL: /posts/like
+Stack Trace:
+#0 [internal function]: PostsController->like()
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 01:13:20 Error: [NotFoundException] Invalid post
+Request URL: /posts/like
+Stack Trace:
+#0 [internal function]: PostsController->like()
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-30 01:17:38 Error: Fatal Error (4): syntax error, unexpected 'return' (T_RETURN) in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 107]
+2014-11-30 01:17:38 Error: [FatalErrorException] syntax error, unexpected 'return' (T_RETURN)
+Request URL: /posts
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 107)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 107, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 107, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 01:17:53 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 106]
+2014-11-30 01:17:53 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /posts/like/1
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 106)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 106, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 106, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 08:11:16 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /post
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 09:31:21 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /post
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 15:54:21 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/ubuntu/workspace/app/View/Posts/index.ctp, line 13]
+2014-11-30 15:54:21 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /posts
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 13, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 13, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 15:55:03 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [/home/ubuntu/workspace/app/View/Posts/index.ctp, line 13]
+2014-11-30 15:55:03 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /posts
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 13, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 13, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 16:13:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/like
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-30 16:36:10 Error: Fatal Error (1): Call to undefined function dump() in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 110]
+2014-11-30 16:36:10 Error: [FatalErrorException] Call to undefined function dump()
+Request URL: /posts/like/2
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/ubuntu/wo...', 110)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/ubuntu/wo...', 110, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/ubuntu/wo...', 110, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-30 18:49:16 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.id' in 'field list'
+Request URL: /posts
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 /home/ubuntu/workspace/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Post`.`...', false)
+#4 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Post), Array)
+#5 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /home/ubuntu/workspace/app/Controller/PostsController.php(27): Model->find('all', Array)
+#7 [internal function]: PostsController->index()
+#8 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-11-30 18:51:47 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Post.nbLike-Post.nbDislike' in 'field list'
+Request URL: /posts
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 /home/ubuntu/workspace/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Post`.`...', false)
+#4 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Post), Array)
+#5 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /home/ubuntu/workspace/app/Controller/PostsController.php(27): Model->find('all', Array)
+#7 [internal function]: PostsController->index()
+#8 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-06 10:53:29 Error: [NotFoundException] Invalid post
+Request URL: /admin/posts/delete/16
+Stack Trace:
+#0 [internal function]: PostsController->admin_delete('16')
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-06 10:53:38 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin/
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-06 10:55:40 Error: [NotFoundException] Invalid post
+Request URL: /admin/posts/delete/19
+Stack Trace:
+#0 [internal function]: PostsController->admin_delete('19')
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-06 11:19:12 Error: [MissingActionException] Action PostsController::password() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'password',
+)
+Request URL: /posts/password
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-06 11:20:12 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/home/ubuntu/workspace/app/Controller/PostsController.php, line 172]
+2014-12-06 11:20:12 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /posts/password
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 172)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 172, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 172, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 11:33:31 Error: [PrivateActionException] Private Action PostsController::admin_index() is not directly accessible.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'admin_index',
+)
+Request URL: /posts/admin_index
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-06 11:33:54 Error: [MissingActionException] Action PostsController::admin() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'admin',
+)
+Request URL: /posts/admin/index
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-06 11:34:22 Error: [MissingActionException] Action PostsController::admin() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'admin',
+)
+Request URL: /posts/admin/posts
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-06 11:35:07 Error: [MissingViewException] View file "/home/ubuntu/workspace/app/View/Posts/admin_password.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ubuntu/workspace/app/View/Posts/admin_password.ctp',
+)
+Request URL: /admin/posts/password
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-06 11:35:40 Error: [MissingActionException] Action PostsController::password() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'password',
+)
+Request URL: /posts/password
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-06 11:35:59 Error: [MissingActionException] Action PostsController::password() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'password',
+)
+Request URL: /posts/password
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-06 11:44:05 Error: [MissingControllerException] Controller class LogoutController could not be found.
+Exception Attributes: array (
+  'class' => 'LogoutController',
+  'plugin' => NULL,
+)
+Request URL: /admin/logout
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-06 11:44:37 Error: [MissingControllerException] Controller class LogoutController could not be found.
+Exception Attributes: array (
+  'class' => 'LogoutController',
+  'plugin' => NULL,
+)
+Request URL: /admin/logout
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-06 11:45:06 Error: [MissingControllerException] Controller class PasswordController could not be found.
+Exception Attributes: array (
+  'class' => 'PasswordController',
+  'plugin' => NULL,
+)
+Request URL: /admin/password
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-06 14:09:39 Error: Fatal Error (4): syntax error, unexpected ''), array('' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in [/home/ubuntu/workspace/app/View/Posts/index.ctp, line 24]
+2014-12-06 14:09:39 Error: [FatalErrorException] syntax error, unexpected ''), array('' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+Request URL: /posts
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 24, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 24, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 14:12:24 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [/home/ubuntu/workspace/app/View/Posts/index.ctp, line 24]
+2014-12-06 14:12:24 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /posts
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 24, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 24, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 15:17:46 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/ubuntu/workspace/app/View/Posts/index.ctp, line 19]
+2014-12-06 15:17:46 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /posts
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 19, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 19, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-06 16:25:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/cake_logo.png
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-06 16:34:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/disLike.png
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-06 16:34:53 Error: [MissingControllerException] Controller class LikeController could not be found.
+Exception Attributes: array (
+  'class' => 'LikeController',
+  'plugin' => NULL,
+)
+Request URL: /like/22
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-06 16:35:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/disLike.png
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-06 16:35:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/disLike.png
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-06 16:35:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/disLike.png
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

@@ -1,0 +1,1 @@
+<div data-alert class="alert-box alert-<?= isset($class) ? $class : 'info'; ?>"><?= $message; ?></div>

@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(249, 249, 249);
+    font-family :'open sans';
+}
+
+.score{
+    font-size :200%;
+}
+
+.column-vote {
+    margin: auto;
+    margin-bottom: 4%;
+    max-width: 150px;
+    min-height: 64px;
+    height: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.column-vote-up {
+    background-color: #43ac6a;
+}
+
+.column-vote-down {
+    background-color: #f04124;
+}
+.vote-up {
+    background-image: url("../img/like.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    float: left;
+    min-width: 64px;
+    min-height: 64px;
+}
+.vote-down {
+    background-image: url("../img/dislike.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    float: left;
+    min-width: 64px;
+    min-height: 64px;
+}
+
+.red{
+    color:red;
+}
+
+.green{
+    color:green;
+}
